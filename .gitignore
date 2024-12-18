@@ -1,0 +1,7 @@
+# Ignore Conda environment and Python cache
+*.env
+*.yml
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
