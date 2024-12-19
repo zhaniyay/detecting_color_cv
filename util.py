@@ -3,7 +3,7 @@ import cv2
 
 
 def get_limits(color):
-    c = np.uint8([[color]]) #here insert the bgr values which you want to convert to hsv
+    c = np.uint8([[color]]) 
     hsvC = cv2.cvtColor(c, cv2.COLOR_BGR2HSV) 
 
     lowerLimit = hsvC[0][0][0] - 10, 100, 100
